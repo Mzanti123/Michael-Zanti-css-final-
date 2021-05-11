@@ -1,0 +1,478 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 600px) {   
+	
+	
+	
+	
+	
+	html,body {
+		
+		background-color: #679159; 
+		
+	
+	}
+	
+	
+	 #page
+    {
+      margin: 5px; 
+      margin-top:25px;
+      display: block; 
+      height:auto;
+      position: relative; 
+      overflow: hidden; 
+      background: #679159 ; 
+      width:450px;
+    }
+    
+	
+	#header
+    {
+    background: rgb(45,253,48);
+    background: linear-gradient(0deg, rgba(45,253,48,1) 0%, rgba(34,193,195,1) 69%);
+    background-repeat:no-repeat;
+    height:50px;
+    width:450px;
+	margin: 0; 
+	padding: 0; 
+    }
+
+	
+#navbar
+    {
+	display: block; 
+	position: flex; 
+    width:450px; 
+	height: 120px; 
+	
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none;}
+    
+    
+    #navbar a
+    {
+	position: flex; 
+    font-size:9.5px;
+    font-weight:bold;
+    color:aquamarine; 
+	text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+ 
+    margin-left:29px;
+    margin-right:29px;
+    }
+
+    #navbar {
+  
+  background-color: #333;
+}
+    
+    #navbar a:hover
+    {
+    color:#C7E0C2;
+	background-color: aquamarine; 
+    }
+    
+    
+  
+ #page
+    {
+      margin: 0 auto 0 auto; 
+	 float: left; 
+      margin-top:5px;
+      display: block; 
+      height:auto;
+      position: relative; 
+      overflow: hidden; 
+      background: #679159 ; 
+      width:600px;
+	 z-index: 99; 
+    }
+	
+	
+	#header
+    {
+	
+	float: left; 
+	padding: 0px; 
+	margin: auto; 
+    background: rgb(45,253,48);
+    background: linear-gradient(0deg, rgba(45,253,48,1) 0%, rgba(34,193,195,1) 69%);
+    background-repeat:no-repeat;
+    height:150px;
+    width:450px;
+    }
+    
+	
+	
+	
+	
+	
+	
+    .contentTitle
+    {
+    width:450px;
+    height:30px;
+	padding-top: 10px; 
+    margin-top:100px;
+    margin-left:25px;
+    margin-right:25px;
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/tab_back.png);
+    background-repeat:no-repeat;
+    
+    }
+    
+    .contentTitle h1
+    {
+    margin-left:21px;
+    padding-top:8px;
+    font-size:17px;
+    font-weight:bold;
+    color:#071027;
+    }
+	
+	.contentcontainer { 
+	width:450px;
+    height:auto ;
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:0px;
+	padding: 50px; 
+	background-color: aqua; 
+
+}
+	
+	
+.carousel-container {
+  max-width: 60% ;
+  justify-content: left; 
+  height: auto px; 
+  position: absolute;
+	
+  
+  
+  margin-top: 20%; 
+  margin-left: 0%;
+  margin-bottom: 50%; 
+}
+
+	
+h5 { 
+
+margin-top: 50px; 
+margin: 45px; 
+padding-top: 100px; 
+color: #333; 
+}
+
+
+
+	
+	
+	
+	
+	.sign {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 30px; 
+  width: 20%;
+  height: 20%;
+ 
+
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  left: 15%;
+  top: 25%;
+  font-family: 'Monoton', cursive;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #ffe6ff;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #32FF03,
+    -0.2rem 0.1rem 1rem #32FF03, 0.2rem 0.1rem 1rem #32FF03,
+    0 -0.5rem 2rem #32FF03, 0 0.5rem 3rem #32FF03;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #32FF03,
+      -0.2rem 0.1rem 1rem #32FF03, 0.2rem 0.1rem 1rem #32FF03,
+      0 -0.5rem 2rem #32FF03, 0 0.5rem 3rem #32FF03;
+  }
+  28%,
+  33% {
+    color: #32FF03;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #32FF03;
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #133E01;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #32FF03, 0.2rem 0.1rem 1rem #32FF03,
+      0 -0.5rem 2rem #32FF03, 0 0.5rem 3rem #32FF03;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+/* ToolTip*/
+
+
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar .icon {
+  display: none;
+}
+
+
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+}
+	
+	
+
+
+
+
+
+	
